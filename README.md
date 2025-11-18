@@ -2,7 +2,7 @@
 - A lightweight AI assistant designed to help with contract review by breaking long agreements into understandable pieces, identifying key legal clauses, assessing risks, and extracting important details.
 SLA-CARA uses a Retrieval-Augmented Generation (RAG) approach built specifically for legal text.
  - The goal is simple:
-** reduce manual effort and make contract understanding feel less overwhelming.**
+  - **Reduce manual effort and make contract understanding feel less overwhelming.**
 
 ### What SLA-CARA Does
 SLA-CARA supports contract reviewers by automating four core legal analysis tasks:
