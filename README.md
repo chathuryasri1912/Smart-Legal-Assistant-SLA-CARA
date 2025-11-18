@@ -6,17 +6,17 @@ SLA-CARA uses a Retrieval-Augmented Generation (RAG) approach built specifically
 
 ### What SLA-CARA Does
 SLA-CARA supports contract reviewers by automating four core legal analysis tasks:
-1. Clause Classification
+**1. Clause Classification**
   - Identifies the type of clause from 25+ categories (Termination, Indemnification, Confidentiality, Governing Law, etc.).
-2. Clause Summarization
+**2. Clause Summarization**
   - Generates concise, easy-to-read summaries of long legal paragraphs.
-3. Risk Assessment
+**3. Risk Assessment**
   - Assigns a risk label (High, Medium, Low) and highlights which legal risk areas are involved.
-4. Key Legal Insights Extraction
+**4. Key Legal Insights Extraction**
   - Pulls out Parties, Dates, Obligations, Entities, and other useful details.
-5. Contract Q&A
+**5. Contract Q&A**
   - Allows natural-language questions about a clause or full contract.
-**This system is built for clarity, speed, and practical use—not to replace legal teams, but to support them.**
+**This system is built for clarity, speed, and practical use, not to replace legal teams, but to support them.**
 
 ### Tech Stack
 #### 1. Core AI & NLP
@@ -30,7 +30,6 @@ SLA-CARA supports contract reviewers by automating four core legal analysis task
 - Regex-based Clause Segmentation – splits contracts into meaningful legal units
 #### 3. Backend & Application Layer
 - FastAPI – main API layer
-- Uvicorn – ASGI server
 - Pydantic – input/output schema definitions
 #### 4. Python & Machine Learning Ecosystem
 - PyTorch – for model inference
